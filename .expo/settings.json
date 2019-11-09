@@ -3,5 +3,6 @@
   "hostType": "lan",
   "lanType": "ip",
   "dev": true,
-  "minify": false
+  "minify": false,
+  "https": false
 }

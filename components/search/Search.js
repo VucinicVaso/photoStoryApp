@@ -105,7 +105,7 @@ const Search = (props) => {
 			</View>
 		:
 			<View style={styles.postsView}>
-			{ props.posts.length > 0 ? 
+			{ props.posts && props.posts.length > 0 ? 
 				<FlatList
 					data={ props.posts }
 					numColumns={3}
